@@ -5,6 +5,7 @@ variable "bucket_name" {
 }
 
 variable "region_name" {
-  description = ""
+  description = "Specify the region if needed"
   type        = string
+  default     = ""
 }

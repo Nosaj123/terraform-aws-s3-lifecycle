@@ -2,9 +2,9 @@ output "bucket_name" {
   value = aws_s3_bucket.example.bucket
 }
 
-output "bucket_region" {
-  value = aws_s3_bucket.example.region
-}
+#output "bucket_region" {
+#  value = aws_s3_bucket.example.region
+#}
 
 output "bucket_lifecycle_policy" {
   value = jsonencode(aws_s3_bucket.example.lifecycle_rule)
