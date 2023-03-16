@@ -1,7 +1,7 @@
 variable "bucket_name" {
   description = "Bucket Name"
-  type        = string
-  default     = "nosajsolomon-876" #Enter Bucket Name Here. Leaving blank will generate a default name
+  type    = list(string)
+  default = ["", "", ""]
 }
 
 variable "region_name" {
